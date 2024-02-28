@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable baby
+drawable baby_boy
+drawable ic_action_name
+drawable ic_baby
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_notification
+id camera
+id fcamera
+id logs
+id luz
+id menu
+id som
+id vcamera
+id web
+layout activity_fourth
+layout activity_main
+layout activity_second
+layout activity_third
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_activity_third
+style Theme.Termo
+xml backup_rules
+xml data_extraction_rules

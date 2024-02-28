@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Bebe</title>
+    <title>Minha Página</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // Define a função que faz a requisição AJAX
+      function updateContent() {
+        $.ajax({
+          url: "/camera",
+          type: "GET",
+          success: function(response) {
+            // Atualiza a imagem na página
+            $("#imagem").attr("src", "{{ url_for('static', filename='foto.jpg') }}?" + new Date().getTime());
+          }
+        });
+      }
+      // Atualiza a imagem a cada 2 segundos
+      setInterval(updateContent, 2000);
+    </script>
+  </head>
+  <body>
+  <h1>Som:{{meu_som}}</h1>
+    <img id="imagem" src="{{ url_for('static', filename='foto.jpg') }}" alt="Minha Imagem">
+  </body>
+</html>

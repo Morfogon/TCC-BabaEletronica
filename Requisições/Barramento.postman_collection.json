@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "880c9fe9-b379-4e5d-9c0d-ef0e30607db0",
+		"name": "Barramento",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Camera",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"porta\": 400,\r\n    \"usuario\": \"124\",\r\n    \"senha\": \"124ert\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.193:5000/camera?tipo=1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"193"
+					],
+					"port": "5000",
+					"path": [
+						"camera"
+					],
+					"query": [
+						{
+							"key": "tipo",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Observer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"porta\": 4000,\r\n    \"usuario\": \"user1\",\r\n    \"senha\": \"pass1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.193:5000/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"193"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Microfone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.193:5000/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"193"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

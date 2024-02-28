@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        >
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/web">
+        </WebView>
+
+        <TextView
+            android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textColor="@color/black"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textSize="26sp"
+            tools:ignore="MissingConstraints"></TextView>
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginTop="200dp"></Button>
+
+    <Button
+            android:id="@+id/logs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logs"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+        android:layout_marginTop="250dp"></Button>
+
+        <Button
+            android:id="@+id/luz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luz ON/OFF"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="144dp"
+            android:layout_marginTop="300dp"></Button>
+
+        <Button
+            android:id="@+id/som"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOM"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginTop="350dp"></Button>
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

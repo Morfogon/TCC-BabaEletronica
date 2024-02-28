@@ -1,0 +1,23 @@
+ChoroMic1 = 4-167077-A_resampled.wav
+MargotCelular = margot.m4a_8_resampled.wav
+ChoroMic2 = margot.m4a_11_resampled.wav
+ChoroMic3 = margot.m4a_14_resampled.wav
+ChoroMic4 = margot.m4a_16_resampled.wav
+
+RisadaMic1 = laugh_1.m4a_15_resampled.wav
+RisadaMic2 = laugh_1.m4a_17_resampled.wav
+RisadaMic3 = laugh_1.m4a_36_resampled.wav
+RisadaMic4 = laugh_1.m4a_57_resampled.wav
+RisadaMic5 = laugh_1.m4a_83_resampled.wav
+
+BarulhoMic1 = 1-48298-A_resampled.wav
+BarulhoMic2 = 1-97392-A_resampled.wav
+BarulhoMic3 = 2-59565-A_resampled.wav
+BarulhoMic4 = 4-165813-A_resampled.wav
+BarulhoMic5 = 5-156999-B_resampled.wav
+
+SilencioMic1 = silence.wav_19_resampled.wav
+SilencioMic2 = silence.wav_32_resampled.wav
+SilencioMic3 = silence.wav_46_resampled.wav
+SilencioMic4 = silence.wav_57_resampled.wav
+SilencioMic5 = silence.wav_73_resampled.wav
